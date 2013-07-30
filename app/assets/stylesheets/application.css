@@ -11,3 +11,89 @@
  *= require_self
  *= require_tree .
  */
+
+/*  Main Cricket Specs  */
+/* =====================*/
+
+body {
+  background-color: #ccff66;
+  text-align: center;
+  font-family: Georgia;
+}
+
+p {
+  color: #006600;
+  font-family: Georgia 12px normal;
+  background-color: #cc99ff;
+}
+
+h1 {
+  color:#003300;
+  font-family: Georgia;
+}
+
+h2 {
+  color: #003300;
+  font-family: Georgia;
+}
+
+h3 {
+  color: #003300;
+  font-family: Georgia;
+}
+
+/* Created ID Specs */
+/* =================*/
+
+#greeting {
+  font:Arial 25px bold;
+  color: #003300;
+}
+
+
+/* Cricket Logo Specs */
+/* ===================*/
+img {
+  height: 400px;
+  width: 300px;
+  position: center;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  border: 5px #003300 solid;
+}
+
+
+
+/* BUTTONS TO PAGES */
+/* =================*/
+#homebutton {
+  background-size: 20px 50px;
+  background-color: #ccff33;
+}
+
+#walletbutton {
+  background-size: 20px 50px;
+  background-color: #ffff66;
+}
+
+#userbutton {
+  background-size: 20px 50px;
+  background-color: #ccffcc;
+}
+
+
+
+/*  All Link Specs  */
+/* =================*/
+a :hover{
+color:#ffff33;
+font-family: Georgia, 17px italic;
+}
+
+a :link {
+  color:#000000;
+}
+
+a :visited {
+  color: #003333;
+}

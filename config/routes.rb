@@ -1,8 +1,11 @@
-Budgettracker::Application.routes.draw do
+BudgetCricket::Application.routes.draw do
 
   resources :budgets do
     resources :expenses
   end
 
-  root to: "budgets#index"
+  get "home/index"
+  get "welcome/index"
+
+  root to: "welcome#index"
 end
