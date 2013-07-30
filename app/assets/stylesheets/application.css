@@ -13,7 +13,20 @@ p {
   background-color: #cc99ff;
 }
 
+h1 {
+  color:#003300;
+  font-family: Georgia;
+}
 
+h2 {
+  color: #003300;
+  font-family: Georgia;
+}
+
+h3 {
+  color: #003300;
+  font-family: Georgia;
+}
 
 /* Created ID Specs */
 /* =================*/
