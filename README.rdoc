@@ -1,0 +1,5 @@
+Budget Tracker
+
+Add your budgets and list the expenses!
+
+screenshot: https://www.dropbox.com/s/ig6hcih5veuj4cf/budgettracker.jpg
