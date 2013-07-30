@@ -1,6 +1,9 @@
 Bc::Application.routes.draw do
+  get "home/index"
   get "welcome/index"
-  root "welcome#index"
+
+
+  #root "welcome#index"
 
 
 
