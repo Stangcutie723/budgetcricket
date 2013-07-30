@@ -27,7 +27,7 @@ class ExpensesController < ApplicationController
   def update
     if @expense.update_attributes(params[:expense])
       flash[:notice] = "Expense has been updated."
-      redirect_to [@budget, @ticket]
+      redirect_to budget_expense_path(@expense)
     else
       flash[:alert] = "Expense has not been updated."
       render :action => "edit"

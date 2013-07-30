@@ -22,7 +22,8 @@ ActiveRecord::Schema.define(:version => 20130729175421) do
 
   create_table "expenses", :force => true do |t|
     t.string   "title"
-    t.text     "description"
+    t.string   "description"
+    t.decimal  "cost"
     t.integer  "budget_id"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false

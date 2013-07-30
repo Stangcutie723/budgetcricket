@@ -1,9 +1,8 @@
 class Expense < ActiveRecord::Base
-  attr_accessible :description, :budget, :title
+  attr_accessible :description, :budget, :title, :cost
 
   validates :title, :presence => true
-  validates :description, :presence => true,
-                          :length => { :minimum => 10 }
+  validates :cost, :presence => true
 
   belongs_to :budget
 end

@@ -1,7 +1,8 @@
 <div id='expense'>
   <h2><%= @expense.title %></h2>
-  <%= link_to "Edit Expense", [:edit, @budget, @expense] %>
-  <%= simple_format(@expense.description) %>
+  <%= "Cost: #{@expense.cost}" %>
+  <br><%= link_to "Edit Expense", [:edit, @budget, @expense] %>
+
 </div>
 
 <%= link_to "Back to #{@budget.name} Expenses", budget_path(@budget) %>
