@@ -15,11 +15,39 @@
 /*  Main Cricket Specs  */
 /* =====================*/
 
-body {
-  background-color: #ccff66;
+#welcomeindex {
+  background-color: #ccff99;
   text-align: center;
   font-family: Georgia;
+  border: #003300 7px solid;
 }
+
+#homeindex {
+  background-color: #ccff99;
+  text-align: center;
+  font-family: Georgia;
+  border-top: #003300 7px solid;
+  border-left: #003300 7px solid;
+  border-right: #003300 7px solid;
+}
+
+#home {
+  background-color: #ccff99;
+  text-align: left;
+  font-family: Georgia;
+  border-left: #003300 7px solid;
+  border-right: #003300 7px solid;
+  border-bottom: #003300 7px solid;
+}
+
+.BottomLinks {
+  text-align: center;
+
+}
+
+
+
+
 
 p {
   color: #006600;
@@ -63,31 +91,11 @@ img {
 }
 
 
-
-/* BUTTONS TO PAGES */
-/* =================*/
-#homebutton {
-  background-size: 20px 50px;
-  background-color: #ccff33;
-}
-
-#walletbutton {
-  background-size: 20px 50px;
-  background-color: #ffff66;
-}
-
-#userbutton {
-  background-size: 20px 50px;
-  background-color: #ccffcc;
-}
-
-
-
 /*  All Link Specs  */
 /* =================*/
 a :hover{
 color:#ffff33;
-font-family: Georgia, 17px italic;
+font: Georgia, 17px italic;
 }
 
 a :link {
@@ -95,5 +103,5 @@ a :link {
 }
 
 a :visited {
-  color: #003333;
+  color: #009900;
 }
