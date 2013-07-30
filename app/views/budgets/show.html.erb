@@ -12,7 +12,6 @@
 <ul id='expense'>
   <% @budget.expenses.each do |expense| %>
     <li>
-      #<%= expense.id %> -
     <%= link_to expense.title, [@budget, expense] %>
     </li>
   <% end %>
