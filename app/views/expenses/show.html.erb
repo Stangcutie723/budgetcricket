@@ -2,7 +2,7 @@
   <h2><%= @expense.title %></h2>
   <%= "Cost: #{@expense.cost}" %>
   <br><%= link_to "Edit Expense", [:edit, @budget, @expense] %>
-
+  <%= link_to "Delete Expense", [@budget, @expense], :method => :delete, :confirm => "Do you really want to delete this expense?" %>
 </div>
 
 <%= link_to "Back to #{@budget.name} Expenses", budget_path(@budget) %>

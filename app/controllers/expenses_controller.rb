@@ -34,6 +34,12 @@ class ExpensesController < ApplicationController
     end
   end
 
+  def destroy
+    @expense.destroy
+    flash[:notice] = "Expense has been deleted."
+    redirect_to @budget
+  end
+
 private
   def find_budget
     @budget = Budget.find(params[:budget_id])
