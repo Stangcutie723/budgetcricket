@@ -7,14 +7,14 @@ feature "Editing expenses" do
     visit '/'
     click_link budget.name
     click_link expense.title
-    click_link "Edit expense"
+    click_link "Edit Expense"
   end
 
   scenario "Updating a expense" do
     fill_in "Title", :with => "Make it really shiny!"
-    click_button "Update expense"
+    click_button "Update Expense"
     page.should have_content "Expense has been updated."
-    within("#expense h2") do
+    within("#expense") do
       page.should have_content("Make it really shiny!")
     end
     page.should_not have_content expense.title
@@ -22,7 +22,7 @@ feature "Editing expenses" do
 
   scenario "Updating a expense with invalid information" do
     fill_in "Title", :with => ""
-    click_button "Update expense"
+    click_button "Update Expense"
     page.should have_content("Expense has not been updated.")
   end
 end

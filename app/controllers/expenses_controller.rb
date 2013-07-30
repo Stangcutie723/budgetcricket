@@ -21,6 +21,19 @@ class ExpensesController < ApplicationController
   def show
   end
 
+  def edit
+  end
+
+  def update
+    if @expense.update_attributes(params[:expense])
+      flash[:notice] = "Expense has been updated."
+      redirect_to [@budget, @ticket]
+    else
+      flash[:alert] = "Expense has not been updated."
+      render :action => "edit"
+    end
+  end
+
 private
   def find_budget
     @budget = Budget.find(params[:budget_id])
