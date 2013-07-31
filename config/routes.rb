@@ -1,16 +1,18 @@
-Bc::Application.routes.draw do
+BudgetCricket::Application.routes.draw do
   resources :budgets do
     resources :expenses
   end
 
   get "welcome/index"
   get "home/index"
-  get "home/aboutbudget"
-  get "home/contactus"
-  get "home/aboutus"
+  get "aboutbudget/index"
+  get "contactus/index"
+  get "aboutus/index"
 
   root to: "welcome#index"
 end
+
+
   #root "welcome#index"
 
   # The priority is based upon order of creation:

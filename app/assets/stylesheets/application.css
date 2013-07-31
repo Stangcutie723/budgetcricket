@@ -1,63 +1,6 @@
 /*  Main Cricket Specs  */
 /* =====================*/
 
-#welcomeindex {
-  background-color: #ccff99;
-  text-align: center;
-  font-family: Georgia;
-  border: #003300 7px solid;
-}
-
-#homeindex {
-  background-color: #ccff99;
-  text-align: center;
-  font-family: Georgia;
-  border-top: #003300 7px solid;
-  border-left: #003300 7px solid;
-  border-right: #003300 7px solid;
-}
-
-#home {
-  background-color: #ccff99;
-  text-align: left;
-  font-family: Georgia;
-  border-left: #003300 7px solid;
-  border-right: #003300 7px solid;
-  border-bottom: #003300 7px solid;
-}
-
-#AboutBudget {
-  background-color: #ccff99;
-  text-align: center;
-  font-family: georgia;
-  border-top: #003300 7px solid;
-  border-left: #003300 7px solid;
-  border-right: #003300 7px solid;
-  margin: 0 5px 0 5px;
-  padding: 0 10px 0 10px;
-}
-
-#contact {
-  background-color: #ccff99;
-  text-align: center;
-  font-family: Georgia;
-  border: #003300 7px solid;
-  color: #003300;
-}
-
-
-
-.AboutBudgetMain {
-  background-color: #ccff99;
-  text-align: left;
-  font-family: Georgia;
-  border-bottom: #003300 7px solid;
-}
-
-.BottomLinks {
-  text-align: center;
-
-}
 
 h1 {
   color:#003300;
@@ -81,15 +24,6 @@ li {
 p {
   font-weight: normal;
 }
-
-/* Created ID Specs */
-/* =================*/
-
-#greeting {
-  font:Arial 25px bold;
-  color: #003300;
-}
-
 
 
 /* Cricket Logo Specs */
@@ -117,4 +51,80 @@ a :link {
 
 a :visited {
   color: #009900;
+}
+
+.BottomLinks {
+  text-align: center;
+}
+
+
+/*  About Budget Specs  */
+/* =====================*/
+#AboutBudget {
+  background-color: #ccff99;
+  text-align: center;
+  font-family: georgia;
+  border-top: #003300 7px solid;
+  border-left: #003300 7px solid;
+  border-right: #003300 7px solid;
+  margin: 0 5px 0 5px;
+  padding: 0 10px 0 10px;
+}
+
+.AboutBudgetMain {
+  background-color: #ccff99;
+  text-align: left;
+  font-family: Georgia;
+  border-bottom: #003300 7px solid;
+}
+
+/*  About US Specs  */
+/* =================*/
+ #aboutus{
+
+  background-color: #ccff99;
+  text-align: left;
+  font-family: Georgia;
+  border: #003300 7px solid;
+  color: #003300;
+
+}
+
+/*  Contact US Specs  */
+/* ===================*/
+#contact {
+  background-color: #ccff99;
+  text-align: center;
+  font-family: Georgia;
+  border: #003300 7px solid;
+  color: #003300;
+}
+/*  Awesome Home Specs  */
+/* =====================*/
+#homeindex {
+  background-color: #ccff99;
+  text-align: center;
+  font-family: Georgia;
+  border: #003300 7px solid;
+
+}
+
+.tips {
+  background-color: #ccff99;
+  text-align: center;
+  font-family: Georgia;
+  margin: 20px 15px 10px 15px;
+  padding: 10px 10px 10px 10px;
+  border: #003300 5px dashed;
+  height: 250px;
+  width: 200px;
+}
+
+/*  Welcome Home Specs  */
+/* =====================*/
+#welcomeindex {
+  background-color: #ccff99;
+  text-align: center;
+  font-family: Georgia;
+  border: #003300 7px solid;
 }
