@@ -57,6 +57,10 @@ a :visited {
   text-align: center;
 }
 
+.TopLinks {
+ text-align: center;
+}
+
 
 /*  About Budget Specs  */
 /* =====================*/
@@ -67,15 +71,18 @@ a :visited {
   border-top: #003300 7px solid;
   border-left: #003300 7px solid;
   border-right: #003300 7px solid;
+  border-bottom: #003300 7px solid;
   margin: 0 5px 0 5px;
   padding: 0 10px 0 10px;
+
 }
 
 .AboutBudgetMain {
   background-color: #ccff99;
   text-align: left;
   font-family: Georgia;
-  border-bottom: #003300 7px solid;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
 }
 
 /*  About US Specs  */
@@ -87,6 +94,8 @@ a :visited {
   font-family: Georgia;
   border: #003300 7px solid;
   color: #003300;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
 
 }
 
@@ -98,6 +107,8 @@ a :visited {
   font-family: Georgia;
   border: #003300 7px solid;
   color: #003300;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
 }
 /*  Awesome Home Specs  */
 /* =====================*/
@@ -106,6 +117,8 @@ a :visited {
   text-align: center;
   font-family: Georgia;
   border: #003300 7px solid;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
 
 }
 
@@ -127,4 +140,47 @@ a :visited {
   text-align: center;
   font-family: Georgia;
   border: #003300 7px solid;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
 }
+
+
+
+/*  Budget Cricket Wallet Specs  */
+/* ==============================*/
+
+#wallet, #EditBudget, #NewBudget, #budgetshow {
+  background-color: #ccff99;
+  text-align: left;
+  font-family: Georgia;
+  border: #003300 7px solid;
+  color: #003300;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+#wallettop, #EditBudgetTop, #NewBudgetTop, #showtop  {
+  text-align: center;
+}
+
+/*  Budget Cricket Wallet Expense Specs  */
+/* ======================================*/
+#expensenew, #expenseedit, #expenseshow {
+  background-color: #ccff99;
+  text-align: left;
+  font-family: Georgia;
+  border: #003300 7px solid;
+  color: #003300;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+#expensenewtop, #exedittop, #exshowtop {
+  text-align: center;
+}
+
+
+
+/*  Budget Cricket FAQs Specs  */
+/* ==============================*/
+

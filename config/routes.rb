@@ -9,7 +9,8 @@ BudgetCricket::Application.routes.draw do
   get "aboutbudget/index"
   get "contactus/index"
   get "aboutus/index"
-  get "budget/index"
+  get "budgets/index"
+  get "questions/index"
 
 
 

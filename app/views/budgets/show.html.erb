@@ -1,6 +1,19 @@
-<% title(@budget.name, "Budgets") %>
+<div id="budgetshow">
+  <div id="showtop">
 
-<h2><%= @budget.name %></h2>
+  <% title(@budget.name, "Budgets") %>
+  <h1><%= @budget.name %></h1>
+
+    <div class="TopLinks">
+        | <%= link_to "User" %>  |
+        <%= link_to "Wallet", controller: "budgets" %> |
+        <%= link_to "Home", controller: "home" %> |
+        <%= link_to "Cricket's Stories" %> |
+    </div>
+  </div>
+
+
+
 <%= @budget.description %>
 <%= link_to "Edit Budget", edit_budget_path(@budget) %>
 <%= link_to "Delete Budget",
@@ -16,6 +29,18 @@
     </li>
   <% end %>
 </ul>
+
 <%= link_to "New Expense", new_budget_expense_path(@budget) %>
 <hr />
+
 <%= link_to "Back to Budgets", budgets_url %>
+
+<br>
+   <div class="BottomLinks">
+      | <%= link_to "FAQs", controller: "questions" %> |
+      <%= link_to "About Budget", controller: "aboutbudget" %> |
+      <%= link_to "Contact Us", controller: "contactus" %> |
+      <%= link_to "About Us", controller: "aboutus" %> |
+    </div>
+<br>
+</div>
