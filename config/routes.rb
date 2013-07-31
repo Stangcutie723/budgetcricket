@@ -2,15 +2,15 @@ BudgetCricket::Application.routes.draw do
   resources :budgets do
     resources :expenses
   end
+
   get "welcome/index"
   get "home/index"
   get "home/aboutbudget"
   get "home/contactus"
 
-  root to: "welcome#index"
+  #root to: "welcome#index"
 
-
-  #root "welcome#index"
+  root "welcome#index"
 
 
 
