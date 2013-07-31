@@ -7,6 +7,7 @@ Bc::Application.routes.draw do
   get "home/index"
   get "home/aboutbudget"
   get "home/contactus"
+  get "home/aboutus"
 
   root to: "welcome#index"
 end
