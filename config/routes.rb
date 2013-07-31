@@ -1,4 +1,9 @@
 BudgetCricket::Application.routes.draw do
+
+  resources :budgets do
+    resources :expenses
+  end
+
   devise_for :users
 
   resources :questions do
@@ -14,6 +19,3 @@ BudgetCricket::Application.routes.draw do
   root to: "welcome#index"
 
 end
-
-
-  #root "welcome#index"

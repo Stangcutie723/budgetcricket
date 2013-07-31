@@ -2,7 +2,7 @@ require 'spec_helper'
 
 feature 'Creating Budgets' do
   before do
-    visit '/'
+    visit new_budget_path
     click_link 'New Budget'
   end
 
