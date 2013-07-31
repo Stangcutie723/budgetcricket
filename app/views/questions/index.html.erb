@@ -1,4 +1,5 @@
 <h2>Budget Cricket FAQ's</h2>
+
     <div class="TopLinks">
       | <%= link_to "User" %>  |
       <%= link_to "Wallet", controller: "budgets" %> |
@@ -6,17 +7,13 @@
       <%= link_to "Cricket's Stories" %> |
     </div>
 
-
-
-
 <ul>
   <% @questions.each do |question| %>
     <li><%= link_to question.question, question %></li>
   <% end %>
 </ul>
+
 <%= link_to "New Question", new_question_path %>
-
-
 
     <div class="BottomLinks">
       | <%= link_to "FAQs", controller: "questions" %> |
