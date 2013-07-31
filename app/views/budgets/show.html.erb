@@ -1,0 +1,21 @@
+<% title(@budget.name, "Budgets") %>
+
+<h2><%= @budget.name %></h2>
+<%= @budget.description %>
+<%= link_to "Edit Budget", edit_budget_path(@budget) %>
+<%= link_to "Delete Budget",
+     budget_path(@budget),
+     :method => :delete,
+     :confirm => "Are you sure you want to delete this budget?"
+     %>
+
+<ul id='expense'>
+  <% @budget.expenses.each do |expense| %>
+    <li>
+    <%= link_to expense.title, [@budget, expense] %>
+    </li>
+  <% end %>
+</ul>
+<%= link_to "New Expense", new_budget_expense_path(@budget) %>
+<hr />
+<%= link_to "Back to Budgets", budgets_url %>

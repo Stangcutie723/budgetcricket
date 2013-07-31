@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Bc::Application.load_tasks
+BudgetCricket::Application.load_tasks
