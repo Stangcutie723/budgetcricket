@@ -1,4 +1,4 @@
-BudgetCricket::Application.routes.draw do
+Bc::Application.routes.draw do
   resources :budgets do
     resources :expenses
   end
@@ -8,11 +8,9 @@ BudgetCricket::Application.routes.draw do
   get "home/aboutbudget"
   get "home/contactus"
 
-  #root to: "welcome#index"
-
-  root "welcome#index"
-
-
+  root to: "welcome#index"
+end
+  #root "welcome#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
