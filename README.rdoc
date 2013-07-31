@@ -1,1 +1,8 @@
 Welcome to Budget Cricket!
+
+
+DIANA! 
+
+So I added the Contact Us, About Budget, About Us pages, pulled yours and fixed the routes error.
+and now Im heading to bed... I also fixed some other little things along the way. 
+Have a good night!
