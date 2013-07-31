@@ -1,6 +1,13 @@
 Bc::Application.routes.draw do
-  get "home/index"
+  resources :budgets do
+    resources :expenses
+  end
   get "welcome/index"
+  get "home/index"
+  get "home/aboutbudget"
+  get "home/contactus"
+
+  root to: "welcome#index"
 
 
   #root "welcome#index"

@@ -26,19 +26,37 @@
   border-bottom: #003300 7px solid;
 }
 
-.BottomLinks {
+#AboutBudget {
+  background-color: #ccff99;
   text-align: center;
+  font-family: georgia;
+  border-top: #003300 7px solid;
+  border-left: #003300 7px solid;
+  border-right: #003300 7px solid;
+  margin: 0 5px 0 5px;
+  padding: 0 10px 0 10px;
+}
 
+#contact {
+  background-color: #ccff99;
+  text-align: center;
+  font-family: Georgia;
+  border: #003300 7px solid;
+  color: #003300;
 }
 
 
 
+.AboutBudgetMain {
+  background-color: #ccff99;
+  text-align: left;
+  font-family: Georgia;
+  border-bottom: #003300 7px solid;
+}
 
+.BottomLinks {
+  text-align: center;
 
-p {
-  color: #006600;
-  font-family: Georgia 12px normal;
-  background-color: #cc99ff;
 }
 
 h1 {
@@ -56,6 +74,14 @@ h3 {
   font-family: Georgia;
 }
 
+li {
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+}
+
 /* Created ID Specs */
 /* =================*/
 
@@ -63,6 +89,7 @@ h3 {
   font:Arial 25px bold;
   color: #003300;
 }
+
 
 
 /* Cricket Logo Specs */
