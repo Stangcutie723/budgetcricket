@@ -1,0 +1,13 @@
+<div id='answer'>
+  <h2>Answer to: <%= @question.question %></h2>
+  <%= simple_format(@answer.answer) %>
+  <span id='author'>Created by <%= @answer.user.email %></span>
+  <%= link_to "Edit Answer", [:edit, @question, @answer] %>
+  <%= link_to "Delete Answer", [@question, @answer], :method => :delete,
+       :confirm => "Are you sure you want to delete this answer?" %>
+</div>
+<br>
+<%= link_to "Add new answer", new_question_answer_path(@question) %>
+<%= link_to "Back to question", question_path(@question) %>
+<%= link_to "Back to List of Questions", questions_path %>
+
