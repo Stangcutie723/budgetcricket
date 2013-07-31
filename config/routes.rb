@@ -1,4 +1,4 @@
-Bc::Application.routes.draw do
+BudgetCricket::Application.routes.draw do
   resources :budgets do
     resources :expenses
   end
