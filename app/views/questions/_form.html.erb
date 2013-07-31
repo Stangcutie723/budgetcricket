@@ -1,0 +1,10 @@
+<%= form_for(@question) do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :question %><br />
+    <%= f.text_field :question %>
+  </p>
+<%= f.submit %>
+<% end %>
+<br>
+<%= link_to "Back to List of Questions", questions_path %>
