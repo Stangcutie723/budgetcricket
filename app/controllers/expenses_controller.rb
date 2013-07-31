@@ -11,7 +11,7 @@ class ExpensesController < ApplicationController
     @expense = @budget.expenses.build(params[:expense])
     if @expense.save
       flash[:notice] = "Expense has been created."
-      redirect_to [@budget, @expense]
+      redirect_to @budget
     else
       flash[:alert] = "Expense has not been created."
       render :action => "new"
@@ -27,7 +27,7 @@ class ExpensesController < ApplicationController
   def update
     if @expense.update_attributes(params[:expense])
       flash[:notice] = "Expense has been updated."
-      redirect_to [@budget, @expense]
+      redirect_to @budget
     else
       flash[:alert] = "Expense has not been updated."
       render :action => "edit"

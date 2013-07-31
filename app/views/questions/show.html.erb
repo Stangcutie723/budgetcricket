@@ -4,13 +4,13 @@
 <%= link_to "Delete Question", question_path(@question), :method => :delete, :confirm => "Yo, you sure you wanna delete this question?" %>
 <br>
 
-<ol id='answer'>
+<ul id='answer'>
   <% @question.answers.each do |answer| %>
     <li>
       <%= link_to answer.answer, [@question, answer] %>
     </li>
   <% end %>
-</ol>
+</ul>
 
 <%= link_to "New Answer", new_question_answer_path(@question) %>
 <%= link_to "Back to List of Questions", questions_path %>

@@ -24,6 +24,7 @@
   <% @budget.expenses.each do |expense| %>
     <li>
     <%= link_to expense.title, [@budget, expense] %>
+    <%= "$#{expense.cost}" %>
     </li>
   <% end %>
 </ul>
