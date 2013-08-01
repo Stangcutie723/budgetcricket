@@ -7,12 +7,12 @@ feature "Viewing answers" do
     answer = Factory(:answer,
             :question => textmate_2,
             :answer => "Make it shiny!")
-    answer.update_attribute(:user, user)
+    answer.update_attribute(:user,user)
     internet_explorer = Factory(:question, :question => "Internet Explorer")
     Factory(:answer,
             :question => internet_explorer,
             :answer => "Standards compliance")
-    visit '/'
+    visit 'answers'
   end
 
   scenario "Viewing answers for a given question" do

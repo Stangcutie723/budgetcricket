@@ -5,4 +5,9 @@ class Expense < ActiveRecord::Base
   validates :cost, :presence => true
 
   belongs_to :budget
+
+  def to_s
+    ActionController::Base.helpers.number_to_currency(cost)
+  end
+
 end
