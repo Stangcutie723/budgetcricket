@@ -4,4 +4,6 @@ class Budget < ActiveRecord::Base
   validates :name, :presence => true
 
   has_many :expenses, :dependent => :delete_all
+
+
 end
