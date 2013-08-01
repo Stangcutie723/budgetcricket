@@ -195,8 +195,8 @@ a :visited {
 
 
 
-/* Budget FAQs Specs */
-/* ==================*/
+/* Budget FAQs QUESTION Specs */
+/* ===========================*/
 
 #FAQmain, #FAQedit, #FAQnew, #FAQshow {
   background-color: #ccff99;
@@ -210,4 +210,22 @@ a :visited {
 
 #FAQtop, #FAQedittop, #FAQnewtop, #FAQshowtop {
     text-align: center;
+}
+
+/* Budget FAQs ANSWER Specs */
+/* =========================*/
+
+
+#FAQAedit, #FAQAnew, #FAQAshow{
+    background-color: #ccff99;
+  text-align: left;
+  font-family: Georgia;
+  border: #003300 7px solid;
+  color: #003300;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+#FAQAedittop, #FAQAnewtop, #FAQAshowtop {
+  text-align: center;
 }
