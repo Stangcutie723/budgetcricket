@@ -3,9 +3,7 @@ require 'spec_helper'
 feature "Creating Expenses" do
   before do
     Factory(:budget, :name => "Internet Explorer")
-    visit '/'
-    click_link "Internet Explorer"
-    click_link "New Expense"
+    visit '/budgets/1/expenses/new'
   end
 
   scenario "Creating an Expense" do

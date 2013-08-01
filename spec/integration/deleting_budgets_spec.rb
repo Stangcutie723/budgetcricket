@@ -2,9 +2,8 @@ require 'spec_helper'
 
 feature "Deleting budgets" do
   scenario "Deleting a budget" do
-    Factory(:budget, :name => "TextMate 2")
-    visit "/"
-    click_link "TextMate 2"
+    budget = Factory(:budget, :name => "TextMate 2")
+    visit budget_path(budget)
     click_link "Delete Budget"
     page.should have_content("Budget has been deleted.")
 

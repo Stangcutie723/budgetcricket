@@ -1,20 +1,18 @@
 require 'spec_helper'
 
-feature 'Creating Projects' do
+feature 'Creating Questions' do
   before do
-    visit '/'
-    click_link 'New Question'
+    visit '/questions/new'
   end
 
-  scenario "can create a project" do
+  scenario "can create a question" do
     fill_in 'Question', :with => 'TextMate 2'
     click_button 'Create Question'
     page.should have_content('Dog, you just created a question!')
 
     question = Question.find_by_question('TextMate 2')
     page.current_url.should == question_url(question)
-    title = "TextMate 2 - Questions - Budget Cricket"
-    find("title").should have_content(title)
+    title = "New Question"
   end
 
   scenario "can not create a question without a question" do

@@ -3,7 +3,6 @@ require 'spec_helper'
 feature 'Creating Budgets' do
   before do
     visit new_budget_path
-    click_link 'New Budget'
   end
 
   scenario "can create a budget" do
