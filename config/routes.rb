@@ -19,7 +19,8 @@ BudgetCricket::Application.routes.draw do
   get "budgets/index"
   get "questions/index"
   get "stories/index"
-
+  get "users/sign_up"
+  get "users/sign_in"
 
   root to: "welcome#index"
 
