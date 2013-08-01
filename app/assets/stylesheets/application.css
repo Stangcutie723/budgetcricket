@@ -186,15 +186,13 @@ a :visited {
   margin: 10px 25px 10px 25px;
   padding: 10px 20px 10px 20px;
   border: #003300 5px dashed;
-  height: 675px;
+  height: 320px;
   width: 350px;
   float: left;
 }
 
 #tweet {
-  height: 400px;
-  width: 350px;
-  float: left;
+  float: center;
 }
 
 #cricketcomic {
