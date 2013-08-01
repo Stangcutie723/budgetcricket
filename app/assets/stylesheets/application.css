@@ -234,3 +234,22 @@ a :visited {
 #FAQAedittop, #FAQAnewtop, #FAQAshowtop {
   text-align: center;
 }
+
+/* Cricket Stories Specs */
+/* ======================*/
+
+ #stories{
+  background-color: #ccff99;
+  text-align: left;
+  font-family: Georgia;
+  border: #003300 7px solid;
+  color: #003300;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+#storiestop {
+  text-align: center;
+
+}
