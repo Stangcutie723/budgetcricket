@@ -1,5 +1,4 @@
 class AnswersController < ApplicationController
-  before_filter :authenticate_user!, :except => [:index, :show]
   before_filter :find_question
   before_filter :find_answer, :only => [:show, :edit, :update, :destroy]
 
@@ -9,7 +8,6 @@ class AnswersController < ApplicationController
 
   def create
     @answer = @question.answers.build(params[:answer])
-    @answer.user = current_user
     if @answer.save
       flash[:notice] = "Answer has been created."
       redirect_to @question

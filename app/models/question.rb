@@ -4,5 +4,4 @@ class Question < ActiveRecord::Base
   validates :question, :presence => true
 
   has_many :answers
-  has_and_belongs_to_many :users
 end

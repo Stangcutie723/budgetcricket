@@ -7,7 +7,7 @@ BudgetCricket::Application.routes.draw do
     resources :expenses
   end
 
-    resources :questions do
+  resources :questions do
     resources :answers
   end
 
