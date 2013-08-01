@@ -5,9 +5,7 @@ feature 'Deleting expenses' do
   let!(:expense) { Factory(:expense, :budget => budget) }
 
   before do
-    visit '/'
-    click_link budget.name
-    click_link expense.title
+    visit '/budgets/1/expenses/1'
   end
 
   scenario "Deleting a expense" do

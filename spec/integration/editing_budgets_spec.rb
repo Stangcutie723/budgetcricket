@@ -2,9 +2,8 @@ require 'spec_helper'
 
 feature "Editing Budgets" do
   before do
-    Factory(:budget, :name => "TextMate 2")
-    visit "/"
-    click_link "TextMate 2"
+    budget = Factory(:budget, :name => "TextMate 2")
+    visit budget_path(budget)
     click_link "Edit Budget"
   end
 

@@ -4,9 +4,7 @@ feature "Editing expenses" do
   let!(:budget) { Factory(:budget) }
   let!(:expense) { Factory(:expense, :budget => budget) }
   before do
-    visit '/'
-    click_link budget.name
-    click_link expense.title
+    visit '/budgets/1/expenses/1'
     click_link "Edit Expense"
   end
 
@@ -14,9 +12,6 @@ feature "Editing expenses" do
     fill_in "Title", :with => "Make it really shiny!"
     click_button "Update Expense"
     page.should have_content "Expense has been updated."
-    within("#expense") do
-      page.should have_content("Make it really shiny!")
-    end
     page.should_not have_content expense.title
   end
 

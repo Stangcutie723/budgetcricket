@@ -2,9 +2,8 @@ require 'spec_helper'
 
 feature "Editing Questions" do
   before do
-    Factory(:question, :question => "TextMate 2")
-    visit "/"
-    click_link "TextMate 2"
+    question = Factory(:question, :question => "TextMate 2")
+    visit question_path(question)
     click_link "Edit Question"
   end
 

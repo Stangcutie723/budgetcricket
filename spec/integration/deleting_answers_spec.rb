@@ -7,7 +7,7 @@ feature 'Deleting answers' do
   end
 
   before do
-    visit question_answer_path(answer)
+    visit '/questions/1/answers/1'
   end
 
   scenario "Deleting an answer" do
