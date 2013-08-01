@@ -1,6 +1,5 @@
 BudgetCricket::Application.routes.draw do
 
-
   devise_for :users
 
   resources :budgets do
@@ -23,9 +22,5 @@ BudgetCricket::Application.routes.draw do
   get "users/sign_in"
 
   root to: "welcome#index"
-
-
-
-
 
 end
