@@ -116,13 +116,31 @@ a :visited {
 /* ===================*/
 #contact {
   background-color: #ccff99;
-  text-align: center;
   font-family: Georgia;
   border: #003300 7px solid;
   color: #003300;
   margin: 5px 5px 5px 5px;
   padding: 10px 10px 10px 10px;
+
 }
+
+#contacttop {
+ text-align: center;
+}
+
+#dianapic, #krystlepic, #cricketpic {
+  height: 200px;
+  width: 200px;
+  float:left;
+
+}
+
+#para {
+  text-align: center
+}
+
+
+
 /*  Awesome Home Specs  */
 /* =====================*/
 #homeindex {
