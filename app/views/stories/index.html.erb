@@ -1,19 +1,21 @@
-<div id="FAQAedit">
-  <div id="FAQAeditop">
-    <h2>Editing an answer in <%= @question.question %></h2>
-  </div>
-   <div class="TopLinks">
+<div id="stories">
+    <div id="storiestop">
+      <h1>Cricket's Stories</h1>
+    </div>
+    <div class="TopLinks">
       | <%= link_to "User" %>  |
       <%= link_to "Wallet", controller: "budgets" %> |
       <%= link_to "Home", controller: "home" %> |
       <%= link_to "Cricket's Stories", controller: "stories"  %> |
     </div>
+<br>
 
 
 
-<%= render "form" %>
 
 
+
+<br>
     <div class="BottomLinks">
       | <%= link_to "FAQs", controller: "questions" %> |
       <%= link_to "About Budget", controller: "aboutbudget" %> |

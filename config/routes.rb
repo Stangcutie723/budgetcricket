@@ -1,5 +1,6 @@
 BudgetCricket::Application.routes.draw do
 
+
   devise_for :users
 
   resources :budgets do
@@ -17,7 +18,7 @@ BudgetCricket::Application.routes.draw do
   get "aboutus/index"
   get "budgets/index"
   get "questions/index"
-
+  get "stories/index"
 
 
   root to: "welcome#index"
