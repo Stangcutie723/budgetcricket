@@ -93,9 +93,6 @@ a :visited {
 
 }
 
-
-
-
 /*  About US Specs  */
 /* =================*/
  #aboutus{
@@ -198,6 +195,19 @@ a :visited {
 
 
 
-/*  */
-/* ==============================*/
+/* Budget FAQs Specs */
+/* ==================*/
 
+#FAQmain, #FAQedit, #FAQnew, #FAQshow {
+  background-color: #ccff99;
+  text-align: left;
+  font-family: Georgia;
+  border: #003300 7px solid;
+  color: #003300;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+#FAQtop, #FAQedittop, #FAQnewtop, #FAQshowtop {
+    text-align: center;
+}
