@@ -131,13 +131,39 @@ a :visited {
 #dianapic, #krystlepic, #cricketpic {
   height: 200px;
   width: 200px;
+}
+
+#dianapic{
   float:left;
-
+}
+#dianapara {
+  text-align: center;
 }
 
-#para {
-  text-align: center
+
+#krystlepic {
+  float: left;
 }
+#KrystlePara {
+  text-align: center;
+}
+
+
+
+#cricketpic {
+  float:left;
+}
+#cricketpara {
+  text-align: center;
+}
+
+#names {
+  text-align: center;
+  font-family: georgia;
+  font-size: 35px;
+}
+
+
 
 
 
