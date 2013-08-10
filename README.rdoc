@@ -1,8 +1,6 @@
 Welcome to Budget Cricket!
 
+Used: Ruby, Ruby on Rails, CRUD from scratch, BDD, rspec, capybara, devise, team collaboration, nested resources, associations, HTML, CSS, twitter widget integrations.
 
-DIANA! 
+Code Fellows Silver B3 July 2013 Class Project
 
-So I added the Contact Us, About Budget, About Us pages, pulled yours and fixed the routes error.
-and now Im heading to bed... I also fixed some other little things along the way. 
-Have a good night!
