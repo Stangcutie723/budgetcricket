@@ -35,15 +35,19 @@ None known of.<br>
 Pictures:
 =========
 Welcome Page:
+============
 <img src="http://i20.photobucket.com/albums/b211/krystlephoto/Github/fce03b16-2ec2-4027-83fa-fc8d560610cf_zps7bef7c78.jpg" border="0" alt=" photo fce03b16-2ec2-4027-83fa-fc8d560610cf_zps7bef7c78.jpg"/></a><br>
 
 Home Page:
+===========
 <img src="http://i20.photobucket.com/albums/b211/krystlephoto/Github/29cda91b-da39-478d-8cc2-398a031bb0a3_zps6aeecbab.jpg" border="0" alt=" photo 29cda91b-da39-478d-8cc2-398a031bb0a3_zps6aeecbab.jpg"/></a><br>
 
 Budgets to choose from:
+======================
 <img src="http://i20.photobucket.com/albums/b211/krystlephoto/Github/81ba2228-aacf-4931-a17f-117153307575_zps92bb77bf.jpg" border="0" alt=" photo 81ba2228-aacf-4931-a17f-117153307575_zps92bb77bf.jpg"/></a><br>
 
 Budget Expenses:
+================
 <img src="http://i20.photobucket.com/albums/b211/krystlephoto/Github/84556a96-0b17-414d-9faf-a19e47f16079_zps3ef704c6.jpg" border="0" alt=" photo 84556a96-0b17-414d-9faf-a19e47f16079_zps3ef704c6.jpg"/></a><br>
 
 About Budget:
@@ -51,4 +55,5 @@ About Budget:
 <img src="http://i20.photobucket.com/albums/b211/krystlephoto/b69da2d4-3968-4a77-92dd-c47d4c641b28_zps3931670c.jpg" border="0" alt=" photo b69da2d4-3968-4a77-92dd-c47d4c641b28_zps3931670c.jpg"/></a><br>
 
 Contact us:
+==========
 <img src="http://i20.photobucket.com/albums/b211/krystlephoto/3c91e363-b8b9-4a26-9f8a-9dece8c3e5cf_zps3569c65e.jpg" border="0" alt=" photo 3c91e363-b8b9-4a26-9f8a-9dece8c3e5cf_zps3569c65e.jpg"/></a><br>
