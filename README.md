@@ -4,8 +4,6 @@ Created July 2013, during Code Fellows Bootcamp Silver, by Krystle Frisbie and D
 
 Web-Development Includes:
 =========================
-
-
   BDD
   Nested Resources
   Crud from scratch
