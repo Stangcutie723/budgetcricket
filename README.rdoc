@@ -4,9 +4,10 @@ Created July 2013, during Code Fellows Bootcamp Silver, by Krystle Frisbie and D
 
 Web-Development Includes:
 =========================
-  Crud from scratch
+
   BDD
-  Nested Resources<br>
+  Nested Resources
+  Crud from scratch
   Twitter Widget Integration
   capybara (= 1.1.2)
   coffee-rails (~> 3.2.1)
