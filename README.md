@@ -29,7 +29,7 @@ HTML<br>
 
 Known Bugs:
 ===========
-None known of.<br>
+Users aren't linked into the app but the sign in and out features work.<br>
 
 
 Pictures:
