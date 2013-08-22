@@ -1,5 +1,5 @@
 class QuestionsController < ApplicationController
-
+  before_filter :authenticate_user!, except: [:index, :show]
   before_filter :find_question, :only => [:show, :edit, :update, :destroy]
 
   def index
