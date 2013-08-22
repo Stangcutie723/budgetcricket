@@ -8,13 +8,16 @@ Web-Development Includes:
   Nested Resources<br>
   Crud from scratch<br>
   Twitter Widget Integration<br>
+~*~*~*~*Dependencies*~*~*~*~*~
+  brakeman<br>
   capybara (= 1.1.2)<br>
   coffee-rails (~> 3.2.1)<br>
-  devise (~> 2.1.0)<br>
+  devise<br>
   dynamic_form (= 1.1.4)<br>
   email_spec (= 1.2.1)<br>
   factory_girl (= 2.6.4)<br>
   jquery-rails<br>
+  rack-min-profiler (~> 0.1.29)<br>
   rails (= 3.2.13)<br>
   rspec-rails (~> 2.11)<br>
   sass-rails (~> 3.2.3)<br>
