@@ -11,11 +11,11 @@
       <%= link_to "Cricket's Stories", controller: "stories"  %> |
   </div>
 
-  <ul>
-    <% @budgets.each do |budget| %>
-      <li><%= link_to budget.name, budget %></li>
-    <% end %>
-  </ul>
+    <ul>
+      <% @budgets.each do |budget| %>
+        <li><%= link_to budget.name, budget %></li>
+      <% end %>
+    </ul>
 
 <%= link_to "New Budget", new_budget_path %>
 <br>

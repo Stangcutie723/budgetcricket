@@ -74,24 +74,30 @@ a :visited {
   border-bottom: #003300 7px solid;
   margin: 0 5px 0 5px;
   padding: 0 10px 0 10px;
-
-
-}
-
-.AboutBudgetMain {
-  background-color: #ccff99;
-  text-align: left;
-  font-family: Georgia;
-  margin: 5px 5px 5px 5px;
-  padding: 10px 10px 10px 10px;
 }
 
 #cricketQ1, #cricketQ2, #cricketQ3, #cricketQ4, #cricketQ5 {
   height: 260px;
   width: 320px;
-  float: right;
-
 }
+
+#quest {
+  height: 500px;
+  width: 700px;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  margin: 0px 10px 0px 10px;
+}
+
+#genquest {
+  height:600px;
+  width: 800px;
+  text-align: left;
+  padding: 0px 10px 0px 10px;
+  margin: 0px 10px 0px 10px
+}
+
+
 
 /*  About US Specs  */
 /* =================*/

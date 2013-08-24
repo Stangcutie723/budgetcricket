@@ -20,18 +20,16 @@
      :confirm => "Are you sure you want to delete this budget?"
      %>
 
-<ul id='expense'>
-  <% @budget.expenses.each do |expense| %>
-    <li>
-    <%= link_to expense.title, [@budget, expense] %>
-    <%= expense %>
-    </li>
-  <% end %>
-</ul>
+  <ul id='expense'>
+    <% @budget.expenses.each do |expense| %>
+      <li>
+        <%= link_to expense.title, [@budget, expense] %>
+        <%= expense %>
+      </li>
+    <% end %>
+  </ul>
 
 <%= link_to "New Expense", new_budget_expense_path(@budget) %>
-<hr />
-
 <%= link_to "Back to Budgets", budgets_url %>
 
 <br>
