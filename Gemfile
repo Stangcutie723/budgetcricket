@@ -3,8 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'dynamic_form', '1.1.4'
 gem 'devise'
-gem "rack-mini-profiler", "~> 0.1.29"
-
+gem 'figaro'
 
 
 
