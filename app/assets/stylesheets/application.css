@@ -5,6 +5,7 @@
 h1 {
   color:#003300;
   font-family: Georgia;
+  border-bottom: 10px #003300 double;
 }
 
 h2 {
@@ -26,6 +27,7 @@ p {
 }
 
 
+
 /* Cricket Logo Specs */
 /* ===================*/
 #welcricket {
@@ -40,27 +42,24 @@ p {
 
 /*  All Link Specs  */
 /* =================*/
-a :hover{
-color:#ffff33;
-font: Georgia, 17px italic;
-}
-
-a :link {
-  color:#000000;
-}
-
-a :visited {
-  color: #009900;
+.TopLinks {
+  text-align: center;
+  background-color: #ffffff;
 }
 
 .BottomLinks {
   text-align: center;
+  background-color: #ffffff;
 }
 
-.TopLinks {
- text-align: center;
+
+a:link {
+  color: #000000;
 }
 
+a:visited {
+  color: #000000;
+}
 
 /*  About Budget Specs  */
 /* =====================*/
@@ -68,10 +67,7 @@ a :visited {
   background-color: #ccff99;
   text-align: center;
   font-family: georgia;
-  border-top: #003300 7px solid;
-  border-left: #003300 7px solid;
-  border-right: #003300 7px solid;
-  border-bottom: #003300 7px solid;
+  border: #003300 7px solid;
   margin: 0 5px 0 5px;
   padding: 0 10px 0 10px;
 }
@@ -139,39 +135,17 @@ a :visited {
   width: 200px;
 }
 
-#dianapic{
-  float:left;
-}
-#dianapara {
-  text-align: center;
-}
-
-
-#krystlepic {
-  float: left;
-}
-#KrystlePara {
-  text-align: center;
-}
-
-
-
-#cricketpic {
-  float:left;
-}
-#cricketpara {
-  text-align: center;
-}
-
 #names {
   text-align: center;
   font-family: georgia;
   font-size: 35px;
 }
 
-
-
-
+#ContactK, #ContactD, #ContactC {
+  padding: 20px 20px 20px 200px;
+  margin:  20px 20px 20px 200px;
+  position: inherit;
+}
 
 /*  Awesome Home Specs  */
 /* =====================*/
@@ -191,7 +165,7 @@ a :visited {
   font-family: Georgia;
   margin: 10px 25px 10px 25px;
   padding: 10px 20px 10px 20px;
-  border: #003300 5px dashed;
+  border: #003300 5px double;
   height: 320px;
   width: 350px;
   float: left;
@@ -207,7 +181,7 @@ a :visited {
   font-family: Georgia;
   margin: 10px 25px 10px 25px;
   padding: 10px 20px 10px 20px;
-  border: #003300 5px dashed;
+  border: #003300 5px dotted;
   height: 320px;
   width: 520px;
   float: right;
@@ -260,6 +234,11 @@ a :visited {
   padding: 10px 10px 10px 10px;
 }
 
+#ExForm{
+  border-collapse: collapse;
+  padding: 10;
+}
+
 #expensenewtop, #exedittop, #exshowtop {
   text-align: center;
 }
@@ -288,7 +267,7 @@ a :visited {
 
 
 #FAQAedit, #FAQAnew, #FAQAshow{
-    background-color: #ccff99;
+  background-color: #ccff99;
   text-align: left;
   font-family: Georgia;
   border: #003300 7px solid;
