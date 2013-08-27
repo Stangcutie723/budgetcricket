@@ -4,9 +4,7 @@ gem 'rails', '3.2.13'
 gem 'dynamic_form', '1.1.4'
 gem 'devise'
 gem 'figaro'
-
-
-
+gem 'strong_parameters'
 
 
 # Bundle edge Rails instead:
