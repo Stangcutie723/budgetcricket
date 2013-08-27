@@ -4,6 +4,10 @@ BudgetCricket::Application.routes.draw do
   devise_for :models
   devise_for :users
 
+  resources :posts do
+    resources :comments
+  end
+
   resources :budgets do
     resources :expenses
   end
@@ -12,22 +16,17 @@ BudgetCricket::Application.routes.draw do
     resources :answers
   end
 
-  resources :posts do
-    resources :comments
-  end
-
-
+  get "users/sign_in"
   get "welcome/index"
   get "home/index"
+  get "budgets/index"
+  get "stories/index"
+  get "posts/index"
+  get "questions/index"
   get "aboutbudget/index"
   get "contactus/index"
   get "aboutus/index"
-  get "budgets/index"
-  get "questions/index"
-  get "stories/index"
   get "users/sign_out"
-  get "users/sign_in"
-  get "posts/index"
 
   root to: "welcome#index"
 
