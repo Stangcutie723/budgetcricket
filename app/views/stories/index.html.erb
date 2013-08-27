@@ -1,15 +1,26 @@
 <div id="stories">
     <div id="storiestop">
       <h1>Cricket's Stories</h1>
-    </div>
+
     <div class="TopLinks">
-        | <%= link_to "Logout", destroy_user_session_path %>  |
+      | <%= link_to "Logout", destroy_user_session_path %>  |
       <%= link_to "Wallet", controller: "budgets" %> |
       <%= link_to "Home", controller: "home" %> |
       <%= link_to "Cricket's Stories", controller: "stories"  %> |
     </div>
-    <br>
 
+      <h3>Terms and Conditions</h3>
+      <h4>
+        Before you share, edit, and view other stories and possibly comment<br>  on other stories, Budget Cricket just wants to thank you for your<br> interest. Cricket Stories is brought to you by the makers of Budget<br> Cricket for those that have signed up for the use of Budget Cricket.<br>
+      </h4>
+      <h4>
+        Please show common sense and courtesy towards others. Cursing is <br> fine but be wise to context. Opinions are great, rudeness is not.<br> Thank you!
+      </h4>
+
+    <%= link_to "Continue onto stories", controller: "posts"%>
+    </div>
+
+  <br>
     <div class="BottomLinks">
       | <%= link_to "FAQs", controller: "questions" %> |
       <%= link_to "About Budget", controller: "aboutbudget" %> |

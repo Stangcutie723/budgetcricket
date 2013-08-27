@@ -286,13 +286,18 @@ a:visited {
 
  #stories{
   background-color: #ccff99;
-  text-align: left;
+  text-align: center;
   font-family: Georgia;
   border: #003300 7px solid;
   color: #003300;
   margin: 5px 5px 5px 5px;
   padding: 10px 10px 10px 10px;
+}
 
+.STandC{
+  width: 400px;
+  height: 400px;
+  float: center;
 }
 
 #storiestop {

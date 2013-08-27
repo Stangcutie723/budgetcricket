@@ -1,0 +1,36 @@
+  <h1>Welcome to Cricket Stories</h1>
+  <h2>Below are some stories written by people that have used Budget Cricket, or that have had experience in budgeting and would like to share their personal stories. Feel free to comment on each other's posts.</h2>
+<br>
+  <div class="TopLinks">
+    | <%= link_to "Logout", destroy_user_session_path %>  |
+    <%= link_to "Wallet", controller: "budgets" %> |
+    <%= link_to "Home", controller: "home" %> |
+    <%= link_to "Cricket's Stories", controller: "stories" %> |
+  </div>
+  <br>
+  <h3>Want to add a story of yours? Click this link to get started: <%= link_to 'New Story Post', new_post_path %> </h3>
+  <br>
+  <table>
+    <tr>
+      <th>Story Title:</th>
+      <th>Story Text:</th>
+      <th colspan="3"></th>
+    </tr>
+  <% @posts.each do |post| %>
+    <tr>
+      <td><%= post.title %></td>
+      <td><%= post.text %></td>
+      <td><%= link_to 'Show', post_path(post) %></td>
+      <td><%= link_to 'Edit', edit_post_path(post) %></td>
+      <td><%= link_to 'Delete', post_path(post),
+                    method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+  </table>
+  <br>
+  <div class="BottomLinks">
+    | <%= link_to "FAQs", controller: "questions" %> |
+    <%= link_to "About Budget", controller: "aboutbudget" %> |
+    <%= link_to "Contact Us", controller: "contactus" %> |
+    <%= link_to "About Us", controller: "aboutus" %> |
+  </div>

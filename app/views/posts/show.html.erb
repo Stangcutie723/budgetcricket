@@ -1,0 +1,35 @@
+  <div class="TopLinks">
+    | <%= link_to "Logout", destroy_user_session_path %>  |
+    <%= link_to "Wallet", controller: "budgets" %> |
+    <%= link_to "Home", controller: "home" %> |
+    <%= link_to "Cricket's Stories", controller: "stories" %> |
+  </div>
+
+  <p>
+    <strong>Story Title:</strong><br>
+    <%= @post.storytitle %>
+  </p>
+
+  <p>
+    <strong>Story:</strong><br>
+    <%= @post.storytext %>
+  </p>
+
+  <div id="postshow">
+    <h3>Reader's Comments</h3>
+      <%= render @post.comments %>
+    <h3>Add a comment:</h3>
+      <%= render "comments/form" %>
+  </div>
+
+  |<%= link_to 'Edit Letter', edit_post_path(@post) %> |
+  <%= link_to 'Back', posts_path %>|
+
+
+
+  <div class="BottomLinks">
+    | <%= link_to "FAQs", controller: "questions" %> |
+    <%= link_to "About Budget", controller: "aboutbudget" %> |
+    <%= link_to "Contact Us", controller: "contactus" %> |
+    <%= link_to "About Us", controller: "aboutus" %> |
+  </div>

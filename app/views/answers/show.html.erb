@@ -3,23 +3,20 @@
     <h2>Answer to: <%= @question.question %></h2>
   </div>
 
-    <div class="TopLinks">
-        | <%= link_to "Logout", destroy_user_session_path %>  |
-      <%= link_to "Wallet", controller: "budgets" %> |
-      <%= link_to "Home", controller: "home" %> |
-      <%= link_to "Cricket's Stories", controller: "stories"  %> |
-    </div>
+  <div class="TopLinks">
+    | <%= link_to "Logout", destroy_user_session_path %>  |
+    <%= link_to "Wallet", controller: "budgets" %> |
+    <%= link_to "Home", controller: "home" %> |
+    <%= link_to "Cricket's Stories", controller: "stories"  %> |
+  </div>
 
-
-<div id='answer'>
-
-  <%= simple_format(@answer.answer) %>
-  <%= link_to "Edit Answer", [:edit, @question, @answer] %>
-
-  <%= link_to "Delete Answer", [@question, @answer], :method => :delete,
+  <div id='answer'>
+    <%= simple_format(@answer.answer) %>
+    <%= link_to "Edit Answer", [:edit, @question, @answer] %>
+    <%= link_to "Delete Answer", [@question, @answer], :method => :delete,
        :confirm => "Are you sure you want to delete this answer?" %>
-</div>
-<br>
+  </div>
+  <br>
 
   <%= link_to "Add another answer", new_question_answer_path(@question) %>
   <br>

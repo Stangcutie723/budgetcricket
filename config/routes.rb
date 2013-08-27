@@ -12,9 +12,10 @@ BudgetCricket::Application.routes.draw do
     resources :answers
   end
 
-  #resources :posts do
-  #  resources :comments
-  #end
+  resources :posts do
+    resources :comments
+  end
+
 
   get "welcome/index"
   get "home/index"
@@ -24,10 +25,9 @@ BudgetCricket::Application.routes.draw do
   get "budgets/index"
   get "questions/index"
   get "stories/index"
-  #get "posts/index"
   get "users/sign_out"
   get "users/sign_in"
-
+  get "posts/index"
 
   root to: "welcome#index"
 
