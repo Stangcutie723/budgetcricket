@@ -1,4 +1,3 @@
-
 /*  Main Cricket Specs  */
 /* =====================*/
 
@@ -161,7 +160,6 @@ a:visited {
   border: #003300 7px solid;
   margin: 5px 5px 5px 5px;
   padding: 10px 10px 10px 10px;
-  position: :fixed;
 }
 
 #tweetframe {
@@ -288,14 +286,18 @@ a:visited {
 /* Cricket Stories Specs */
 /* ======================*/
 
- #stories{
+ #storiesindex, #postsindex, #postshow {
   background-color: #ccff99;
-  text-align: center;
+  text-align: left;
   font-family: Georgia;
   border: #003300 7px solid;
   color: #003300;
   margin: 5px 5px 5px 5px;
   padding: 10px 10px 10px 10px;
+}
+
+#story {
+  padding: 10px 10px 10px 100px;
 }
 
 .STandC{
@@ -304,7 +306,6 @@ a:visited {
   float: center;
 }
 
-#storiestop {
+#storiestop, #posttop {
   text-align: center;
-
 }

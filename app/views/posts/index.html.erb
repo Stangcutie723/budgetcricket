@@ -1,13 +1,14 @@
-<div id="stories">
-  <h1>Welcome to Cricket Stories</h1>
-<br>
-  <div class="TopLinks">
-    | <%= link_to "Logout", destroy_user_session_path %>  |
-    <%= link_to "Wallet", controller: "budgets" %> |
-    <%= link_to "Home", controller: "home" %> |
-    <%= link_to "Cricket's Stories", controller: "stories" %> |
-  </div>
-  <br>
+<div id="postsindex">
+  <div id="posttop">
+    <h1>Welcome to Cricket Stories</h1>
+    <br>
+    <div class="TopLinks">
+      | <%= link_to "Logout", destroy_user_session_path %>  |
+      <%= link_to "Wallet", controller: "budgets" %> |
+      <%= link_to "Home", controller: "home" %> |
+      <%= link_to "Cricket's Stories", controller: "stories" %> |
+    </div>
+    <br>
     <h4>
       Below are some stories written by people that<br>
       have used Budget Cricket, or that have had experience<br>
@@ -19,16 +20,15 @@
         Click this link to get started:
         <%= link_to 'New Story Post', new_post_path %>
     </p>
-  <table>
+  </div>
+  <table id="posttable">
     <tr>
       <th>Story Title:</th>
-      <th>Story:</th>
       <th colspan="10"></th>
     </tr>
   <% @posts.each do |post| %>
     <tr>
       <td><%= post.title %></td>
-      <td><%= post.text %></td>
       <td colspan="10"></td>
       <td><%= link_to 'Read', post_path(post) %></td>
       <td><%= link_to 'Edit', edit_post_path(post) %></td>

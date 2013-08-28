@@ -1,31 +1,41 @@
-<div id="stories">
-  <div class="TopLinks">
-    | <%= link_to "Logout", destroy_user_session_path %>  |
-    <%= link_to "Wallet", controller: "budgets" %> |
-    <%= link_to "Home", controller: "home" %> |
-    <%= link_to "Cricket's Stories", controller: "stories" %> |
+<div id="postshow">
+  <div id="posttop">
+    <h1>Cricket Stories</h1>
+    <div class="TopLinks">
+      | <%= link_to "Logout", destroy_user_session_path %>  |
+      <%= link_to "Wallet", controller: "budgets" %> |
+      <%= link_to "Home", controller: "home" %> |
+      <%= link_to "Cricket's Stories", controller: "stories" %> |
+    </div>
   </div>
+  <div id="story">
+    <p>
+      <strong>Story Title:</strong><br>
+      <%= @post.title %>
 
-  <p>
-    <strong>Story Title:</strong><br>
-    <%= @post.title %>
-  </p>
-  <p>
-    <strong>Story:</strong><br>
+      |<%= link_to 'Edit Letter', edit_post_path(@post) %>|
+    </p>
+    <p>
+      <strong>Story:</strong><br>
       <%= @post.text %>
-  </p>
-    <h3>User Comments</h3>
+    </p>
+    <p>
       <%= render @post.comments %>
-    <h3>Add a comment:</h3>
+    </p>
+    <h4>Add a comment:</h4>
+    <p>
       <%= render "comments/form" %>
-
-  |<%= link_to 'Edit Letter', edit_post_path(@post) %> |
-  <%= link_to 'Back', posts_path %>|
-
+    </p>
+  </div>
+    |<%= link_to 'Back', posts_path %>|
+  <br>
+  <br>
   <div class="BottomLinks">
-    | <%= link_to "FAQs", controller: "questions" %> |
+    |<%= link_to "FAQs", controller: "questions" %> |
     <%= link_to "About Budget", controller: "aboutbudget" %> |
     <%= link_to "Contact Us", controller: "contactus" %> |
     <%= link_to "About Us", controller: "aboutus" %> |
   </div>
+  <br>
+  <br>
 </div>

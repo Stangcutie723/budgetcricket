@@ -1,4 +1,4 @@
-<div id= "homeindex">
+  <div id= "homeindex">
     <h1>Budget Cricket Home</h1>
     <h3>Have you Cricket-ed today?</h3>
 
@@ -8,47 +8,34 @@
         <%= link_to "Home", controller: "home" %> |
         <%= link_to "Cricket's Stories", controller: "stories"  %> |
       </div>
-<br>
-      <div id="tweetframe">
-        <h2>Cricket Chirps:<h2>
+      <br>
+  <table>
+    <tbody>
+      <td>
+        <div id="tweetframe">
+          <h2>Cricket Chirps:<h2>
           <div id="tweet">
-           <a class="twitter-timeline" href="https://twitter.com/BudgetCricket" data-widget-id="362717070540038144">Tweets by @BudgetCricket</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              <a class="twitter-timeline" href="https://twitter.com/BudgetCricket" data-widget-id="362717070540038144">Tweets by @BudgetCricket</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+              </script>
           </div>
-      </div>
-
-      <div id="cricketcomic">
-        <h2>Budget Cricket Comic:</h2>
+        </div>
+      </td>
+      <td>
+        <div id="cricketcomic">
+          <h2>Budget Cricket Comic:</h2>
             <a href="http://i20.photobucket.com/albums/b211/krystlephoto/budgetcricketcomic_1_zps30521b46.jpg~original"><img src= "http://i20.photobucket.com/albums/b211/krystlephoto/budgetcricketcomic_1_zps30521b46.jpg~original" id="comic1" />
-      </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-      <div class="BottomLinks">
-        | <%= link_to "FAQs", controller: "questions" %> |
-        <%= link_to "About Budget", controller: "aboutbudget" %> |
-        <%= link_to "Contact Us", controller: "contactus" %> |
-        <%= link_to "About Us", controller: "aboutus" %> |
-      </div>
-<br>
-
+        </div>
+      </td>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <div class="BottomLinks">
+    | <%= link_to "FAQs", controller: "questions" %> |
+    <%= link_to "About Budget", controller: "aboutbudget" %> |
+    <%= link_to "Contact Us", controller: "contactus" %> |
+    <%= link_to "About Us", controller: "aboutus" %> |
+  </div>
 </div>
 
