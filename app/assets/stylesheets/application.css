@@ -75,13 +75,14 @@ a:visited {
 #cricketQ1, #cricketQ2, #cricketQ3, #cricketQ4, #cricketQ5 {
   height: 260px;
   width: 320px;
+  padding: 0 10px 0 20px;
 }
 
 #quest {
   height: 500px;
   width: 700px;
   text-align: center;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 100px;
   margin: 0px 10px 0px 10px;
 }
 
@@ -90,7 +91,7 @@ a:visited {
   width: 800px;
   text-align: left;
   padding: 0px 10px 0px 10px;
-  margin: 0px 10px 0px 10px
+  margin: 0px 10px 0px 10px;
 }
 
 
