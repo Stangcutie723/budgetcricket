@@ -1,12 +1,5 @@
 require 'spec_helper'
 
-describe StoriesController do
-
-  describe "GET 'index'" do
-    it "returns http success" do
-      get 'index'
-      response.should be_success
-    end
-  end
+ describe StoriesController do
 
 end

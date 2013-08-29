@@ -9,7 +9,7 @@ feature 'Signing in' do
   scenario 'Signing in via form' do
     fill_in 'Email', :with => "budgetcricket@example.com"
     fill_in 'Password', :with => "password"
-    click_button "Sign in"
+    click_button "Login"
     page.should have_content("Signed in successfully.")
   end
 end
