@@ -98,20 +98,27 @@ a:visited {
 /*  About US Specs  */
 /* =================*/
  #aboutus{
-
   background-color: #ccff99;
-  text-align: left;
   font-family: Georgia;
   border: #003300 7px solid;
   color: #003300;
   margin: 5px 5px 5px 5px;
-  padding: 10px 10px 10px 10px;
-
+  padding: 10px 10px 10px 10px ;
 }
 
 #aboutustop {
   text-align: center;
+}
 
+#aboutQ {
+  width: 500px;
+  padding: 20px 20px 20px 100px;
+}
+
+#AboutUsPic {
+  padding: 20px 20px 20px 50px;
+  height: 465px;
+  width: 337px;
 }
 
 /*  Contact US Specs  */
@@ -264,6 +271,8 @@ a:visited {
 #FAQtop, #FAQedittop, #FAQnewtop, #FAQshowtop {
     text-align: center;
 }
+
+
 
 /* Budget FAQs ANSWER Specs */
 /* =========================*/
