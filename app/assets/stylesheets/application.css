@@ -80,17 +80,17 @@ a:visited {
 
 #quest {
   height: 500px;
-  width: 700px;
+  width: 1000px;
   text-align: center;
-  padding: 0px 10px 0px 100px;
+  padding: 0px 10px 0px 270px;
   margin: 0px 10px 0px 10px;
 }
 
 #genquest {
   height:600px;
-  width: 800px;
+  width: 1000px;
   text-align: left;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 200px;
   margin: 0px 10px 0px 10px;
 }
 
@@ -184,6 +184,9 @@ a:visited {
 
 #tweet {
   float: center;
+}
+#TC {
+  padding: 10px 10px 10px 270px ;
 }
 
 #cricketcomic {
